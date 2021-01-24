@@ -1,0 +1,212 @@
+body {
+	margin: 0;
+	padding:0;	
+}
+
+#wrapper {
+	overflow: hidden;	
+}
+
+#menu {
+	background: #333;	
+}
+
+#menu ul {
+	list-style: none;	
+	margin: 0;
+	padding: 0;
+}
+
+#menu > ul {
+	overflow: hidden;
+	position: relative;
+}
+
+#menu > ul li {
+	display: table-cell;
+	float: right;
+} 
+
+#menu > ul li a {
+	display: block;
+	color: white;
+	width: 110px;
+	padding: 20px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-style: italic;
+	text-transform: capitalize;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: all .3s ease;
+}
+
+#menu > ul > li > a span {
+	background: red;
+	display: block;
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	position: absolute;
+	top: -60px;
+	transition: all .3s ease;
+}
+
+#menu > ul > li > a span label {
+	display: block;
+	line-height: 60px;
+}
+
+#menu > ul > li > a:hover > span {
+	top: 0;
+}
+
+#menu ul li a .warna1 {
+	background: #0CF;
+	color: black;
+}
+
+#menu ul li a .warna2 {
+	background: #0C9;
+	color: black;
+}
+
+#menu ul li a .warna3 {
+	background: #09F;
+	color: black;
+}
+
+#menu ul li a .warna4 {
+	background: #09C;
+	color: black;
+}
+
+#menu ul li a .warna5 {
+	background: #099;
+	color: black;
+}
+
+#menu ul li a .warna6 {
+	background: #0F9;
+	color: black;
+}
+
+#content {
+	background: #CFF;
+	overflow: hidden
+}
+
+#main_content {
+	padding: 20px;	
+}
+
+
+blockquote { 
+	background: #eee; 
+	border-left: 5px solid #bcbcbc; 
+	padding: 10px; 
+	margin: 0 0 20px 0; 
+	box-shadow: 0px 0px 2px;
+}
+
+blockquote p { 
+	margin: 0; 
+	padding: 0;
+	font-size: 18px;
+	font-style: italic;
+}
+
+.tambah a {
+	padding: 10px;
+	background: #0C9;
+	border-radius: 2px;
+	box-shadow: 0px 0px 2px;
+	text-decoration: none;
+	color: #000;
+	transition: all .3s;
+}
+
+
+.tambah a:hover {
+	box-shadow: 0px 0px 2px transparent;
+	color: #000;	
+}
+
+#tampil {
+	margin-top: 50px;	
+}
+
+#tampil table {
+	text-align: center;	
+}
+
+#tampil table td {
+	padding: 10px;	
+}
+
+.top {
+	background: #0F0;	
+}
+
+.genap:hover, .ganjil:hover {
+	background: #0FF;	
+}
+
+.style_form {
+	margin-top: 50px;	
+}
+
+.style_form input[type='text'], .style_form input[type='password'], .style_form select {
+	width: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 5px;
+}
+
+.style_form textarea {
+	width: 600px;
+	height: 300px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.style_form input[type='submit'], .style_form input[type='reset'] {
+	padding: 5px;
+	border: 1px solid;
+	background: none;	
+	border-radius: 2px;
+} 
+
+#page {
+	text-align: center;
+	margin: 20px;
+}
+
+#page a {
+	margin: 10px;
+	padding: 5px;
+	border-radius: 1px;
+	background: #333;
+	text-decoration: none;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+	color: white;
+}
+
+#page a:hover {
+	background: white;
+	color: black;
+}
+
+#footer {
+	background: #333;
+	padding: 1px;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 12px;
+	font-style: italic;
+	font-family: "Courier New", Courier, monospace;
+	color: #0FF;
+}
